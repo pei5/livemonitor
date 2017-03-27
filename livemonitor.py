@@ -1,4 +1,15 @@
 # -*- coding: utf-8 -*-
+"""
+@version: 0.1
+@author: Pei5
+@license: Apache Licence
+@contact: demingan@gmail.com
+@site: http://www.tvmining.com
+@software: PyCharm
+@file: livemonitor.py
+@create_time: 2016-11-03 10:58
+@description:从数据库后台获取要检测的主机列表，使用多线程方法获取接口结果，然后把检测接口返回的数据分析以后，结果写入mysql
+"""
 #import urllib
 import urllib2
 import json
