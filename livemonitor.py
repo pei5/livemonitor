@@ -24,7 +24,7 @@ monitor_interface = "http://%s/approve/monitor"
 max_threads = 10
 started_thread = 0
 http_timeout = 10
-mysql_info = {"host": '10.20.50.55', "user": "monitor", "passwd": "gprs_monitor", "db": "livemonitor", "charset": "utf8"}
+mysql_info = {"host": '10.10.10.10', "user": "monitor", "passwd": "111", "db": "livemonitor", "charset": "utf8"}
 
 
 class Mysql:
